@@ -1,0 +1,52 @@
+* {box-sizing: border-box;}
+
+body { 
+  background-image:url(../image/blurlight.jpg);
+  margin: 0;
+  font-family: Noto Sans;
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+
+.header {
+  text-align: center;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+.header a, .header .logo {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 10px;
+  border-radius: 4px;
+}
+
+.header .logo {
+  color:rgb(149, 38, 177);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    font-size: 15px;
+    display: inherit;
+    text-align: left;
+  }
+  .header-right {
+    padding-top: 10%;
+      font-size: 15px;
+    float: none;
+  }
+}
+.panel{
+  border-color:rgb(0, 0, 0);
+  margin:40px;
+  padding:20px;
+  font: 15px "Noto Sans";
+  }
